@@ -14,7 +14,7 @@ eval_data = pd.DataFrame(
     {
         "inputs": [
             "What is MLflow?",
-            "What is Spark?",
+            "What is Databricks?",
         ],
         "ground_truth": [
             "MLflow is an open-source platform for managing the end-to-end machine learning (ML) "
