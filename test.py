@@ -3,6 +3,12 @@ import openai
 import os
 import pandas as pd
 from getpass import getpass
+import dagshub
+dagshub.init(repo_owner='patryczek146', repo_name='dagster-mlflow', mlflow=True)
+
+# with mlflow.start_run():
+#   mlflow.log_param('parameter name', 'value')
+#   mlflow.log_metric('metric name', 1)
 
 eval_data = pd.DataFrame(
     {
