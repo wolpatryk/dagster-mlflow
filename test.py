@@ -27,7 +27,8 @@ eval_data = pd.DataFrame(
             "MapReduce computing model, offering improvements in speed and ease of use. Spark "
             "provides libraries for various tasks such as data ingestion, processing, and analysis "
             "through its components like Spark SQL for structured data, Spark Streaming for "
-            "real-time data processing, and MLlib for machine learning tasks",
+            "real-time data processing, and MLlib for machine learning tasks"
+            "Databricks is a unified data analytics and AI platform founded by the creators of Apache Spark, designed to simplify data engineering, data science, and machine learning workflows. It integrates big data processing, collaborative analytics, and machine learning into a scalable cloud environment.",
         ],
     }
 )
